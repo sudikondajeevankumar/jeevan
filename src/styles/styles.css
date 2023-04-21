@@ -1,0 +1,38 @@
+.form-container,.login-container,.login2-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.form-content,.login-content,.login2-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 30rem;
+    height: 32rem;
+    border: 10px solid rgb(120, 175, 247);
+    background-color: rgb(34, 63, 167);
+}
+button{
+    background-color: rgb(54, 237, 54);
+    width: 8rem;
+    height: 2rem;
+}
+.prev{
+    background-color: red;
+    width: 8rem;
+    height: 2rem;
+}
+.inp{
+    width: 10rem;
+    height: 4rem;
+}
+.text-area{
+    width: 10rem;
+    height: 2rem;
+}
